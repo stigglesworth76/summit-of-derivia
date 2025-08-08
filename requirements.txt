@@ -1,2 +1,2 @@
-streamlit
-sympy
+streamlit>=1.31
+sympy>=1.12
