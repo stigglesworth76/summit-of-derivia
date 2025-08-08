@@ -269,7 +269,7 @@ def main():
 
             # New problem either way
             st.session_state['problem'] = make_problem(st.session_state['difficulty'])
-            st.experimental_rerun()
+            st.rerun()
 
     with colB:
         st.subheader("Stats")
